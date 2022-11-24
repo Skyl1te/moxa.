@@ -1,0 +1,126 @@
+header {
+    ul {
+        li {
+            cursor: pointer;
+            transition: all 0.2s linear ;
+        }
+        li:hover {
+            font-size: large;
+            font-weight: 500;
+        }
+        li:hover::before {
+            top: 110%;
+        }
+    }
+    button:hover {
+        background-color: #161513;
+        color: #fff;
+        transition: all .3s linear;
+    }
+
+    .header__title img {
+        animation: logo_rotate 2s infinite;
+    }
+    
+}
+
+li img {
+    animation: logo_rotate 5s infinite;
+}
+
+.content__text-title img {
+    animation: logo_rotate 10s infinite;
+}
+
+.thirdpage {
+    
+    .blocks {
+        &__block:hover {
+            transition: all 0.5s linear;
+            .blocks__block-title, span, .blocks__block-date {
+                color: #fff;
+            }
+            .blocks__blocks-sqr {
+                background-color: #fff;
+                color: #161513;
+            }
+            background-color: #161513;
+        }
+    }
+}
+
+.fivethpage {
+    .blocks {
+        &__block:hover {
+            transition: all 0.35s linear;
+            background-color: #161513;
+            .blocks__block-title, .blocks__block-description {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.content__buttons-2:hover {
+    background-color: #161513;
+    color: #fff;
+    cursor: pointer;
+    transition: all .35s linear;
+    
+}
+.content__buttons-1:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.seventhpage {
+    .blocks {
+        &__block:hover {
+            transition: all 0.5s linear;
+            .text__block1-description, .text__block2 {
+                color: #fff;
+            }
+            background-color: #161513;
+        }
+    }
+}
+
+.thirdpage__title-img {
+    animation:  logo_rotate 8s infinite;
+}
+
+.fourthpage__title-img {
+    animation:  logo_rotate 8s infinite;
+}
+
+.fivethpage__title-img {
+    animation:  logo_rotate 8s infinite;
+}
+
+.sixethpage__title-img {
+    animation:  logo_rotate 8s infinite;
+}
+
+.seventhpage__title-img {
+    animation:  logo_rotate 8s infinite;
+}
+
+.ninethpage img {
+    animation:  logo_rotate 8s infinite;
+}
+
+.blocks__block1-description:hover, .blocks__block2-description:hover {
+    font-size: x-large;
+    cursor: pointer;
+    transition: all .35s linear;
+}
+
+@keyframes logo_rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

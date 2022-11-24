@@ -1,0 +1,124 @@
+header ul li {
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+header ul li:hover {
+  font-size: large;
+  font-weight: 500;
+}
+header ul li:hover::before {
+  top: 110%;
+}
+header button:hover {
+  background-color: #161513;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+header .header__title img {
+  -webkit-animation: logo_rotate 2s infinite;
+          animation: logo_rotate 2s infinite;
+}
+
+li img {
+  -webkit-animation: logo_rotate 5s infinite;
+          animation: logo_rotate 5s infinite;
+}
+
+.content__text-title img {
+  -webkit-animation: logo_rotate 10s infinite;
+          animation: logo_rotate 10s infinite;
+}
+
+.thirdpage .blocks__block:hover {
+  transition: all 0.5s linear;
+  background-color: #161513;
+}
+.thirdpage .blocks__block:hover .blocks__block-title, .thirdpage .blocks__block:hover span, .thirdpage .blocks__block:hover .blocks__block-date {
+  color: #fff;
+}
+.thirdpage .blocks__block:hover .blocks__blocks-sqr {
+  background-color: #fff;
+  color: #161513;
+}
+
+.fivethpage .blocks__block:hover {
+  transition: all 0.35s linear;
+  background-color: #161513;
+}
+.fivethpage .blocks__block:hover .blocks__block-title, .fivethpage .blocks__block:hover .blocks__block-description {
+  color: #fff;
+}
+
+.content__buttons-2:hover {
+  background-color: #161513;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.35s linear;
+}
+
+.content__buttons-1:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.seventhpage .blocks__block:hover {
+  transition: all 0.5s linear;
+  background-color: #161513;
+}
+.seventhpage .blocks__block:hover .text__block1-description, .seventhpage .blocks__block:hover .text__block2 {
+  color: #fff;
+}
+
+.thirdpage__title-img {
+  -webkit-animation: logo_rotate 8s infinite;
+          animation: logo_rotate 8s infinite;
+}
+
+.fourthpage__title-img {
+  -webkit-animation: logo_rotate 8s infinite;
+          animation: logo_rotate 8s infinite;
+}
+
+.fivethpage__title-img {
+  -webkit-animation: logo_rotate 8s infinite;
+          animation: logo_rotate 8s infinite;
+}
+
+.sixethpage__title-img {
+  -webkit-animation: logo_rotate 8s infinite;
+          animation: logo_rotate 8s infinite;
+}
+
+.seventhpage__title-img {
+  -webkit-animation: logo_rotate 8s infinite;
+          animation: logo_rotate 8s infinite;
+}
+
+.ninethpage img {
+  -webkit-animation: logo_rotate 8s infinite;
+          animation: logo_rotate 8s infinite;
+}
+
+.blocks__block1-description:hover, .blocks__block2-description:hover {
+  font-size: x-large;
+  cursor: pointer;
+  transition: all 0.35s linear;
+}
+
+@-webkit-keyframes logo_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes logo_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
